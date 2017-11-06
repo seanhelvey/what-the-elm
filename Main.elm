@@ -39,7 +39,7 @@ init currency =
 type Msg
   = MorePlease
   | SetCurrency String
-  | NewGif (Result Http.Error String)
+  | NewRate (Result Http.Error String)
 
 
 update : Msg -> Model -> (Model, Cmd Msg)
@@ -51,10 +51,10 @@ update msg model =
     SetCurrency newCurrency ->
       ({ model | currency = newCurrency }, Cmd.none)
 
-    NewGif (Ok newRate) ->
+    NewRate (Ok newRate) ->
       ({ model | rate = newRate }, Cmd.none)
 
-    NewGif (Err _) ->
+    NewRate (Err _) ->
       (model, Cmd.none)
 
 
@@ -96,7 +96,7 @@ getCoinRate currency =
     url =
       ("https://api.coindesk.com/v1/bpi/currentprice/" ++ currency ++ ".json")
   in
-    Http.send NewGif (Http.get url (decodeCoinUrl currency))
+    Http.send NewRate (Http.get url (decodeCoinUrl currency))
 
 
 decodeCoinUrl : String -> Decode.Decoder String
