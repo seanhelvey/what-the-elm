@@ -1,4 +1,4 @@
-#What The Elm?
+# What The Elm?
 
 [introToFp.md](presentations/introToFp.md) is a quick fp intro.  
 [WhatTheElm.md](presentations/WhatTheElm.md) is the slide deck.
@@ -14,5 +14,3 @@ or
 `elm-make src/Hello.elm --output=assets/js/hello.html`
 
 Will compile source files into the assets directory.
-
-![elm 20%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
