@@ -17,7 +17,7 @@ Alternatively:
 `elm-make src/Fetch.elm --output=assets/js/fetch.html` or `elm-make src/Hello.elm --output=assets/js/hello.html` will compile source files into the assets directory.
 
 ## Presentations
-[IntroToFp.md](presentations/IntroToFp.md) is a quick fp intro.  
+[IntroFp.md](presentations/IntroFp.md) is a quick fp intro.  
 [WhatTheElm.md](presentations/WhatTheElm.md) is the slide deck.
 
 ## Need help?  
