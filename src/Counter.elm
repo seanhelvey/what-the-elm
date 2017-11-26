@@ -2,7 +2,7 @@ import Html exposing (Html, button, div, text)
 import Html.Events exposing (onClick)
 
 main =
-  Html.beginnerProgram { model = 0, view = view, update = update }
+  Html.beginnerProgram { model = 0, update = update, view = view }
 
 type Msg = Increment | Decrement
 

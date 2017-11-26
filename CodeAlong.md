@@ -1,19 +1,11 @@
-module Hello exposing (..)
+`elm repl` will start the elm repl
 
-import Html exposing (text)
-
-
-main =
-    text "Examples in this file should be typed direcly into the repl."
-
--- `elm repl` will start the elm repl
--- see examples https://guide.elm-lang.org/core_language.html
+See examples https://guide.elm-lang.org/core_language.html
 
 isNegative n = n < 0
 
 if True then "hello" else "world"
 
--- don't forget the slash and whitespace or simply put on single line
 isNegativeAgain n = \
   if n < 0 then True else False
 
@@ -24,3 +16,7 @@ List.map String.length noCoJS
 josh = { appearance = "amazing", skillLevel = 10}
 
 josh.appearance
+
+{ josh | skillLevel = 11}
+
+mark = { josh | skillLevel = 11}

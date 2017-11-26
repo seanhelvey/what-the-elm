@@ -6,7 +6,7 @@
 ## Examples
 [Hello.elm](src/Hello.elm) is a hello world example.  
 [Counter.elm](src/Counter.elm) is a basic counter showing The Elm Architecture.  
-[CodeAlong.elm](src/CodeAlong.elm) is a repl code along focused on the core language.  
+[CodeAlong.md](CodeAlong.md) is a repl code along focused on the core language.  
 [Fetch.elm](src/Fetch.elm) is a more complicated example using http and json.  
 
 All of the examples above borrow heavily from [guide.elm-lang.org](https://guide.elm-lang.org/)
@@ -16,9 +16,8 @@ Run `elm-reactor` to play with examples in the browser or `elm-repl` for the rep
 Alternatively:
 `elm-make src/Fetch.elm --output=assets/js/fetch.html` or `elm-make src/Hello.elm --output=assets/js/hello.html` will compile source files into the assets directory.
 
-## Presentations
-[IntroFp.md](presentations/IntroFp.md) is a quick fp intro.  
-[WhatTheElm.md](presentations/WhatTheElm.md) is the slide deck.
+## Presentation
+[WhatTheElm.md](WhatTheElm.md) is the slide deck.
 
 ## Need help?  
 [Elm Search](https://klaftertief.github.io/elm-search/)  
