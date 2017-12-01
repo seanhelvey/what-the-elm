@@ -7,11 +7,12 @@ build-lists: true
 ---
 
 # Objectives
-* Understand why Elm is awesome
-* Write functions in the core language
+* Appraise the benefits of functional programming
+* Explain why one might use Elm
 * Read basic type signatures
+* Identify algebraic data types
+* Write functions in the core Elm language
 * Use The Elm Architecture to build apps
-
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
@@ -97,7 +98,12 @@ Try the one above ^^ in repl and discuss
 ---
 
 # Algebraic Data Types (ADTs)
-* Product types: logical AND
+* Product Types
+* Sum Types
+
+---
+# Product Types
+* Logical AND
 * Q: How many possible values in a 32 bit integer?
 * A: 2^32 ~4m
 * So what about a string?
@@ -107,8 +113,8 @@ Try the one above ^^ in repl and discuss
 
 ---
 
-# Union Types
-* Product types: logical OR
+# Sum Types or "Union Types" in Elm
+* Logical OR
 * type Salsa = "Red" | "Green"
 * Q: How many possible values for salsa?
 * A: 2
