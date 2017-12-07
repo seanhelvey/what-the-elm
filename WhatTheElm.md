@@ -41,8 +41,9 @@ build-lists: true
 ---
 
 # Why Elm?
-* Clear vision
+* Clear vision -> supportive community
 * Static typing, friendly compiler
+* Easy to introduce gradually
 * No runtime errors!
 * Separation of data and logic
 * Types (especially Union types)
@@ -70,6 +71,14 @@ A simple functional alternative to JavaScript
 Compiler type inference prevents undefined or null
 
 More info on [error handling in Elm](https://guide.elm-lang.org/error_handling/)
+
+![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
+
+---
+
+
+# Easy to introduce gradually
+See [Valunicorn Calculator](http://www.valunicorn.me/) example.
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
@@ -105,7 +114,7 @@ Try the one above ^^ in repl and discuss
 # Product Types
 * Logical AND
 * Q: How many possible values in a 32 bit integer?
-* A: 2^32 ~4m
+* A: 2^32 ~4bn
 * So what about a string?
 * A function that takes 5 strings?
 
