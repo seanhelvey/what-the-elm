@@ -1,4 +1,4 @@
-# What The Elm?
+# Make Front-end Great Again with Elm
 
 ## Installation
 [Install Elm](http://elm-lang.org/) before you do anything!
@@ -17,7 +17,7 @@ Alternatively:
 `elm-make src/Fetch.elm --output=assets/js/fetch.html` or `elm-make src/Hello.elm --output=assets/js/hello.html` will compile source files into the assets directory.
 
 ## Presentation
-[WhatTheElm.md](WhatTheElm.md) is the slide deck.
+[MakeFrontEndGreatAgain.md](MakeFrontEndGreatAgain.md) is the slide deck.
 
 ## Need help?  
 [Elm Search](https://klaftertief.github.io/elm-search/)  
