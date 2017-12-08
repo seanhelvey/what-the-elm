@@ -9,14 +9,14 @@ if True then "hello" else "world"
 isNegativeAgain n = \
   if n < 0 then True else False
 
-noCoJS = ["Mark", "Michael", "Bill", "Matt", "Dan", "Jeff", "Amy", "Alvaro", "Roger", "Tim", "Dan", "Andre", "BJ", "Amber"]
+elmTraining = ["Pira", "Chelsea", "Jeffrey", "John", "Pete", "Sherif", "Gina", "Meryl", "Mary"]
 
-List.map String.length noCoJS
+List.map String.length elmTraining
 
-josh = { appearance = "amazing", skillLevel = 10}
+brooks = { specialty = "JavaScript", skillLevel = 10}
 
-josh.appearance
+brooks.specialty
 
-{ josh | skillLevel = 11}
+{ brooks | skillLevel = 11}
 
-mark = { josh | skillLevel = 11}
+chad = { brooks | skillLevel = 11}
