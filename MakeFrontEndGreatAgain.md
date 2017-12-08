@@ -174,4 +174,16 @@ Try the one above ^^ in repl and discuss
 
 ---
 
+# Objectives
+* Appraise the benefits of functional programming
+* Explain why one might use Elm
+* Read basic type signatures
+* Identify algebraic data types
+* Write functions in the core Elm language
+* Use The Elm Architecture to build apps
+
+![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
+
+---
+
 # Thank you!
