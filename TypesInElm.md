@@ -150,10 +150,6 @@ type alias User =
 * Sum Types or "Union Types" (super important in Elm!)
 
 ---
-
-![inline center](http://aussiememes.com.au/media/created/ONE-HUNDRED-MILLION-w4ti3a.jpg)
-
----
 # Product Types
 * Logical AND
 * Q: How many possible values in a 32 bit integer?
@@ -162,6 +158,10 @@ type alias User =
 * A function that takes 5 strings?
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
+
+---
+
+![inline center](http://aussiememes.com.au/media/created/ONE-HUNDRED-MILLION-w4ti3a.jpg)
 
 ---
 
