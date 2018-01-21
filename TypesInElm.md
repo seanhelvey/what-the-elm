@@ -198,6 +198,13 @@ userPhoto user =
 
 ---
 
+![inline center](https://raw.githubusercontent.com/seanhelvey/elm-denver-fp/master/img/ElmRoseColoredFinal.png)
+
+---
+
+![inline center](https://upsidesideways.files.wordpress.com/2016/02/cat-in-rose-colored-glasses-e1489441759523.jpg?w=400&h=312&crop=1)
+
+---
 # GitHub repo:
 [https://github.com/seanhelvey/what-the-elm](https://github.com/seanhelvey/what-the-elm)
 
