@@ -1,6 +1,6 @@
 build-lists: true
 
-# [fit]Make Front-end Great Again
+# [fit]Intro to Elm
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
