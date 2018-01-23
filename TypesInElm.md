@@ -4,6 +4,11 @@ build-lists: true
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
+---
+
+# GitHub repo (checkout the "types" branch):
+[https://github.com/seanhelvey/what-the-elm](https://github.com/seanhelvey/what-the-elm)
+
 ___
 
 # Sean Helvey
@@ -39,10 +44,11 @@ Can be inferred at *compile time* without type annotations.
 ---
 
 # Type Classes (Ad-hoc Polymorphism)
+Parametric polymorphism: function / data structure behaves *same* for different types
 
-Unlike Haskell or PureScript, Elm has no support for higher-kinded types.
+Ad-hoc polymorphism: function / data structure behaves *differently* for different types
 
-For example, there is no generic map, apply, fold, or filter function. Instead, such names are used prefixed by their module, such as List.map and Dict.map.
+Unlike Haskell or PureScript, Elm has no support for this currently. There is no generic map, apply, fold, or filter. Such names are prefixed by their module, such as List.map and Dict.map.
 
 ---
 
@@ -194,7 +200,13 @@ userPhoto user =
 
 ---
 
-![inline center](https://raw.githubusercontent.com/seanhelvey/elm-denver-fp/master/img/ElmAzizFinal.png)
+# Objectives
+* Discuss Elm's Hindley-Milner type system
+* Understand static typing and error handling
+* Read basic type signatures
+* Identify records, type aliases, and union types
+
+![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
 ---
 
@@ -203,20 +215,6 @@ userPhoto user =
 ---
 
 ![inline center](https://upsidesideways.files.wordpress.com/2016/02/cat-in-rose-colored-glasses-e1489441759523.jpg?w=400&h=312&crop=1)
-
----
-# GitHub repo:
-[https://github.com/seanhelvey/what-the-elm](https://github.com/seanhelvey/what-the-elm)
-
----
-
-# Objectives
-* Discuss Elm's Hindley-Milner type system
-* Understand static typing and error handling
-* Read basic type signatures
-* Identify records, type aliases, and union types
-
-![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
 ---
 
