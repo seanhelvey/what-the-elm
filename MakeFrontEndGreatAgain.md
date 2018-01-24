@@ -6,6 +6,17 @@ build-lists: true
 
 ---
 
+# Colorado Elm Community is Thriving!
+* 12/4 What the Elm? @ NoCo JS (30 or so attendees)
+* 12/6 Elm Instructor Training @ Galvanize Boulder
+* 1/23 Types in Elm @ DenverScript (Over 100 people)
+* 1/25 Elm: The Gateway Drug @ Denver FP
+* 2/7 Elm For Everyone @ Women Who Code Denver
+
+![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
+
+---
+
 # Objectives
 * Appraise the benefits of functional programming
 * Explain why one might use Elm
@@ -18,7 +29,7 @@ build-lists: true
 
 ---
 
-# Who is this guy?
+# Who is this guy? (@seanhelvey)
 * Web Dev Instructor at Galvanize in Boulder
 * Programming since 2004, JavaScript since 2009
 * Exposed to functional programming in grad school (Scheme, ML, Prolog)
@@ -124,7 +135,7 @@ Try the one above ^^ in repl and discuss
 
 # Sum Types or "Union Types" in Elm
 * Logical OR
-* type Salsa = "Red" | "Green"
+* type Salsa = Red | Green
 * Q: How many possible values for salsa?
 * A: 2
 
