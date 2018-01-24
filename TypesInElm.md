@@ -11,7 +11,7 @@ build-lists: true
 
 ___
 
-# Sean Helvey
+# Sean Helvey (@seanhelvey)
 * Web Dev Instructor at Galvanize in Boulder
 * Programming since 2004, JavaScript since 2009
 * Exposed to functional programming in grad school (Scheme, ML, Prolog)
@@ -44,9 +44,14 @@ Can be inferred at *compile time* without type annotations.
 ---
 
 # Type Classes (Ad-hoc Polymorphism)
+
 Parametric polymorphism: function / data structure behaves *same* for different types
 
 Ad-hoc polymorphism: function / data structure behaves *differently* for different types
+
+---
+
+# Type Classes (Cont...)
 
 Unlike Haskell or PureScript, Elm has no support for this currently. There is no generic map, apply, fold, or filter. Such names are prefixed by their module, such as List.map and Dict.map.
 
