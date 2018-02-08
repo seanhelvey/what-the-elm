@@ -1,17 +1,17 @@
 build-lists: true
 
-# [fit]Intro to Elm
+# [fit]Elm for Everyone!
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
 ---
 
 # Colorado Elm Community is Thriving!
-* 12/4 What the Elm? @ NoCo JS (30 or so attendees)
-* 12/6 Elm Instructor Training @ Galvanize Boulder
-* 1/23 Types in Elm @ DenverScript (Over 100 people)
-* 1/25 Elm: The Gateway Drug @ Denver FP
 * 2/7 Elm For Everyone @ Women Who Code Denver
+* 1/25 Elm Lightning Talks @ Denver FP
+* 1/23 Types in Elm @ DenverScript (Over 100 people)
+* 12/6 Elm Instructor Training @ Galvanize Boulder
+* 12/4 What the Elm? @ NoCo JS (30 or so attendees)
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
@@ -194,6 +194,13 @@ Try the one above ^^ in repl and discuss
 * Use The Elm Architecture to build apps
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
+
+---
+
+# Announcements
+
+* Free Galvanize Boulder Learn to Code: [Intro to React](https://www.eventbrite.com/e/galvanize-boulder-learn-to-code-intro-to-react-22018-tickets-42730614418) 2.20.18
+* Also Galvanize Boulder is hiring an Evangelist!
 
 ---
 
