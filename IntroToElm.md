@@ -6,17 +6,6 @@ build-lists: true
 
 ---
 
-# Colorado Elm Community is Thriving!
-* 2/7 Elm For Everyone @ Women Who Code Denver
-* 1/25 Elm Lightning Talks @ Denver FP
-* 1/23 Types in Elm @ DenverScript (Over 100 people)
-* 12/6 Elm Instructor Training @ Galvanize Boulder
-* 12/4 What the Elm? @ NoCo JS (30 or so attendees)
-
-![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
-
----
-
 # Objectives
 * Appraise the benefits of functional programming
 * Explain why one might use Elm
@@ -57,7 +46,7 @@ build-lists: true
 * Easy to introduce gradually
 * No runtime errors!
 * Separation of data and logic
-* Types (especially Union types)
+* Types (especially Custom Types)
 
 ![elm 80%](https://secure.meetupstatic.com/photos/event/4/b/b/highres_465721211.jpeg)
 
@@ -133,7 +122,7 @@ Try the one above ^^ in repl and discuss
 
 ---
 
-# Sum Types or "Union Types" in Elm
+# Sum Types or "Custom Types" in Elm
 * Logical OR
 * type Salsa = Red | Green
 * Q: How many possible values for salsa?
